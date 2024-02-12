@@ -1,12 +1,14 @@
 #home {
-    background: #fff; /* Gradient warna biru */
+    background: #fff; /* Mengubah warna latar belakang */
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    color: #000000; /* Mengatur warna teks menjadi putih agar kontras */
+    color: #000000; 
+    text-align: center; 
 }
 
 body {
+    background-image: url(img/garis.png);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
@@ -14,20 +16,24 @@ body {
 }
 
 header {
-    background-color: #007bff;
+    background-color: #007bff; /* Warna latar belakang */
     color: #fff;
     padding: 20px;
     text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Efek bayangan */
 }
 
 header h1 {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase; /* Huruf kapital semua */
+    letter-spacing: 2px; /* Spasi antar huruf */
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 nav ul li {
@@ -38,7 +44,11 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
+    transition: color 0.3s ease; /* Efek transisi warna */
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Warna teks saat dihover */
 }
 
 section {
@@ -66,8 +76,8 @@ section {
 }
 
 .candidate-details {
-    flex: 1;
-    text-align: left;
+    display: flex;
+    align-items: center;
 }
 
 .candidate-name {
@@ -77,6 +87,19 @@ section {
 
 .candidate-description {
     font-size: 18px;
+    margin-top: 10px;
+}
+
+.party-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Memusatkan logo partai */
+    margin-top: 20px; /* Memberi ruang di atas logo partai */
+}
+
+.party-logo {
+    width: 50px; /* Sesuaikan ukuran logo partai */
+    margin-right: 10px;
 }
 
 footer {
