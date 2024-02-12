@@ -5,27 +5,35 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     color: #000000; 
     text-align: center; 
+    margin-top: 100px; 
 }
 
 body {
-    background-image: url(img/garis.png);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto Mono', monospace;
     margin: 0;
     padding: 0;
     background: linear-gradient(to bottom, #007bff, #00bfff);
 }
 
 header {
-    background-color: #007bff; /* Warna latar belakang */
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    background-color: #007bff; 
     color: #fff;
     padding: 20px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Efek bayangan */
 }
 
+/* Padding tambahan untuk konten di bawah navbar */
+.content {
+    padding-top: 80px; /* Sesuaikan dengan tinggi navbar */
+}
+
 header h1 {
     margin: 0;
-    font-size: 24px;
+    font-size: 40px;
     text-transform: uppercase; /* Huruf kapital semua */
     letter-spacing: 2px; /* Spasi antar huruf */
 }
@@ -59,13 +67,18 @@ section {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 800px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.span{
+    color: #007bff;
 }
 
 .candidate-info {
     margin-top: 20px;
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .candidate-image {
@@ -81,8 +94,9 @@ section {
 }
 
 .candidate-name {
-    font-size: 24px;
+    font-size: 40px;
     font-weight: bold;
+    color: #00bfff;
 }
 
 .candidate-description {
@@ -102,10 +116,27 @@ section {
     margin-right: 10px;
 }
 
+.slideshow-container {
+    max-width: 800px; /* Sesuaikan lebar maksimum sesuai keinginan Anda */
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.slideshow-slide {
+    display: none;
+    text-align: center;
+}
+
+.slideshow-slide img {
+    width: 100%; /* Gambar akan menyesuaikan lebar kontainer slideshow */
+    height: auto;
+}
+
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Playfair Display', serif;
 }
