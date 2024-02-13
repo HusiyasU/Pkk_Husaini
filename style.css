@@ -24,11 +24,15 @@ header {
     padding: 20px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+    z-index: 5;
 }
 
-/* Padding tambahan untuk konten di bawah navbar */
 .content {
     padding-top: 80px; /* Sesuaikan dengan tinggi navbar */
+}
+
+p {
+    font-size: 20px;
 }
 
 header h1 {
@@ -56,7 +60,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ffcc00; /* Warna teks saat dihover */
+    color: #ffcc00; 
 }
 
 section {
@@ -66,11 +70,22 @@ section {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 800px;
+    max-width: 90%;
     font-family: 'Roboto Mono', monospace;
+    background-image: url();
 }
 
-.span{
+section h2 {
+    font-size: 45px;
+    color: #00bfff;
+}
+
+h3 {
+    font-size: 30px;
+    color: #00bfff;
+}
+
+span{
     color: #007bff;
 }
 
@@ -78,14 +93,15 @@ section {
     margin-top: 20px;
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-bottom: 20px;
 }
 
 .candidate-image {
     width: 300px;
-    height: auto;
+    /* height: auto; */
     border-radius: 50%;
-    margin-right: 20px;
+    /* margin-right: 20px; */
 }
 
 .candidate-details {
@@ -94,13 +110,13 @@ section {
 }
 
 .candidate-name {
-    font-size: 40px;
+    font-size: 70px;
     font-weight: bold;
     color: #00bfff;
 }
 
 .candidate-description {
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 10px;
 }
 
@@ -129,8 +145,31 @@ section {
 }
 
 .slideshow-slide img {
-    width: 100%; /* Gambar akan menyesuaikan lebar kontainer slideshow */
+    width: 60%; /* Gambar akan menyesuaikan lebar kontainer slideshow */
     height: auto;
+}
+
+.kampanye-img {
+    width: 200px;
+}
+
+.profil-content {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 100px;
+}
+
+.profile-item {
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-item p {
+    line-height: 1.6;
+}
+
+.penghias {
+    text-align: left;
 }
 
 footer {
