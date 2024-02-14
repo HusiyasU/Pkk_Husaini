@@ -23,10 +23,15 @@ body {
     color:#fff;
     background:  #007bff;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .btn:hover{
     letter-spacing: .2rem;
+}
+
+.btn-img{
+    width: 10%;
 }
 
 header {
@@ -99,7 +104,7 @@ section h2 {
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 40px;
     color: #00bfff;
 }
 
@@ -191,6 +196,42 @@ span{
 .penghias {
     text-align: left;
 }
+
+#visi-misi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.visi-misi-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.visi-img {
+    width: 50%; /* Atur lebar gambar agar setengah dari lebar parent */
+    margin: 10px; /* Berikan margin agar ada ruang antara gambar */
+}
+
+.gallery-container {
+    overflow-x: auto; /* Membuat galeri dapat di-scroll */
+    white-space: nowrap; /* Menyatukan semua elemen ke dalam satu baris */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: inline-flex; /* Menyatukan elemen dalam satu baris */
+}
+
+.gallery img {
+    width: 200px; /* Atur lebar gambar */
+    height: auto; /* Biarkan tinggi gambar disesuaikan dengan lebar */
+    margin-right: 10px; /* Berikan jarak antar gambar */
+}
+
 
 footer {
     background-color: #333;
