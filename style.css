@@ -1,5 +1,5 @@
 #home {
-    background: #fff; /* Mengubah warna latar belakang */
+    background: #fff;
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -42,12 +42,12 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
     z-index: 5;
 }
 
 .content {
-    padding-top: 80px; /* Sesuaikan dengan tinggi navbar */
+    padding-top: 80px; 
 }
 
 p {
@@ -57,8 +57,8 @@ p {
 header h1 {
     margin: 0;
     font-size: 40px;
-    text-transform: uppercase; /* Huruf kapital semua */
-    letter-spacing: 2px; /* Spasi antar huruf */
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
 }
 
 /* .logo {
@@ -79,7 +79,7 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    transition: color 0.3s ease; /* Efek transisi warna */
+    transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
@@ -121,15 +121,15 @@ span{
 }
 
 .candidate-image {
-    width: 300px;
+    width: 350px;
     height: auto;
-    border-radius: 50%;
+    border-radius:70%;
     margin-right: 20px;
-    transition: transform 0.3s ease; /* Menambahkan efek transisi untuk zoom */
+    transition: transform 0.3s ease;
 }
 
 .candidate-image:hover {
-    transform: scale(1.1); /* Memperbesar gambar saat pointer mouse berada di atasnya */
+    transform: scale(1.1); 
 }
 
 .candidate-details {
@@ -151,17 +151,17 @@ span{
 .party-logos {
     display: flex;
     align-items: center;
-    justify-content: center; /* Memusatkan logo partai */
-    margin-top: 20px; /* Memberi ruang di atas logo partai */
+    justify-content: center; 
+    margin-top: 20px; 
 }
 
 .party-logo {
-    width: 50px; /* Sesuaikan ukuran logo partai */
+    width: 50px; 
     margin-right: 10px;
 }
 
 .slideshow-container {
-    max-width: 800px; /* Sesuaikan lebar maksimum sesuai keinginan Anda */
+    max-width: 800px;
     margin: 20px auto;
     position: relative;
     overflow: hidden;
@@ -174,29 +174,13 @@ span{
 }
 
 .slideshow-slide img {
-    width: 60%; /* Gambar akan menyesuaikan lebar kontainer slideshow */
+    width: 60%; 
     height: auto;
 }
 
 .kampanye-img {
-    width: 200px;
+    width: 260px;
 }
-
-/* .profil-content {
-    font-family: 'Roboto', sans-serif;
-    margin-bottom: 100px;
-} */
-
-/* .profile-item {
-    border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-
-.profile-item p {
-    line-height: 1.6;
-} */
-
 
 .penghias {
     text-align: left;
@@ -216,25 +200,25 @@ span{
 }
 
 .visi-img {
-    width: 50%; /* Atur lebar gambar agar setengah dari lebar parent */
-    margin: 10px; /* Berikan margin agar ada ruang antara gambar */
+    width: 50%; 
+    margin: 10px; 
 }
 
 .gallery-container {
-    overflow-x: auto; /* Membuat galeri dapat di-scroll */
-    white-space: nowrap; /* Menyatukan semua elemen ke dalam satu baris */
+    overflow-x: auto; 
+    white-space: nowrap; 
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .gallery {
-    display: inline-flex; /* Menyatukan elemen dalam satu baris */
+    display: inline-flex; 
 }
 
 .gallery img {
-    width: 200px; /* Atur lebar gambar */
-    height: auto; /* Biarkan tinggi gambar disesuaikan dengan lebar */
-    margin-right: 10px; /* Berikan jarak antar gambar */
+    width: 200px; 
+    height: auto; 
+    margin-right: 10px; 
 }
 
 .testimoni {
@@ -250,7 +234,7 @@ span{
 .testimoni-container {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; /* Biarkan testimoni-wrap berjajar sesuai lebar layar */
+    flex-wrap: wrap;
 }
 
 .testimoni-box {
@@ -264,15 +248,15 @@ span{
 }
 
 .testimoni-box img {
-    width: 100%; /* Mengisi lebar kotak testimoni */
-    height: 200px; /* Mengatur tinggi kotak testimoni */
-    object-fit: cover; /* Menjaga aspek rasio gambar */
-    border-radius: 8px 8px 0 0; /* Atur border-radius untuk sudut atas gambar */
-    transition: transform 0.3s ease; /* Menambahkan efek transisi untuk zoom */
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 8px 8px 0 0; 
+    transition: transform 0.3s ease; 
 }
 
 .testimoni-box:hover img {
-    transform: scale(1.1); /* Memperbesar gambar saat pointer mouse berada di atasnya */
+    transform: scale(1.1); 
 }
 
 .testimoni-box h3 {
@@ -285,9 +269,95 @@ span{
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #00bfff; 
+    color: #fff; 
     text-align: center;
     padding: 20px;
-    font-family: 'Playfair Display', serif;
+    bottom: 0; 
+    width: 100%; 
 }
+
+.social-media a {
+    color: #fff; 
+    font-size: 24px;
+    margin: 0 10px; 
+    transition: color 0.3s ease; 
+}
+
+.social-media a:hover {
+    color: #007bff; 
+}
+
+footer .iyas img{
+    width: 120px; 
+    height: auto; 
+}
+
+#kontak {
+    text-align: center;
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+
+#kontak h2 {
+    font-size: 36px;
+    color: #333;
+}
+
+.kontak-info {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.info-item {
+    margin: 0 20px;
+}
+
+.info-item img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.info-item p {
+    font-size: 16px;
+}
+
+.contact-form {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    width: 200px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+
+    

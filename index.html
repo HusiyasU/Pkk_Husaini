@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-VNdZuv5mw6vKPcYI21dNP9gtDdQ8l3WNvs2QrHmMlOG/+KGl8BlpY3F+XJ0Om5dd" crossorigin="anonymous">
 </head>
 <body>
     <header>
@@ -78,10 +79,10 @@
         <p class="penghias">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae odio, id aliquid aperiam autem itaque libero qui, exercitationem rem quidem est explicabo excepturi nobis? Ducimus placeat repellat sunt fugit qui?</p>
         <div class="slideshow-container">
             <div class="slideshow-slide fade">
-                <img src="img/rijal.webp" style="width:100%">
+                <img src="img/padi.jpeg" style="width:100%">
             </div>
             <div class="slideshow-slide fade">
-                <img src="img/padi.jpeg" style="width:100%">
+                <img src="img/rijal.webp" style="width:100%">
             </div>
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -93,10 +94,10 @@
             <div class="gallery">
                 <img src="img/unity2.webp" alt="Gambar 1">
                 <img src="img/unity6.webp" alt="Gambar 3">
-                <img src="img/iyas.png" alt="Gambar 4">
+                <img src="img/y.jpg" alt="Gambar 4">
                 <img src="img/iyas2.png" alt="Gambar 5">
                 <img src="img/ganjar.png" alt="Gambar 6">
-                <img src="img/wawan.jpg" alt="Gambar 7">
+                <img src="img/hk.jpg" alt="Gambar 7">
             </div>
         </div>
         <a href="#" class="btn">Pelajari Lebih Lanjut <img src="img/arrow-right.svg" alt="" class="btn-img"></a>
@@ -109,7 +110,7 @@
         <h2>Aku Di <span>Mata</span> Mereka</h2>
         <div class="testimoni-container">
             <div class="testimoni-box">
-                <img src="img/wawanori.jpeg" alt="John Doe">
+                <img src="img/wawanputih.jpg" alt="John Doe">
                 <h3>Herniawan</h3>
                 <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum rhoncus nisi et felis vestibulum, in feugiat magna tristique."</p>
             </div>
@@ -128,12 +129,42 @@
         
     </section>
     
-    
     <section id="kontak">
         <h2><span>Hubungi</span> Kami</h2>
-        <!-- Konten untuk halaman Hubungi Kami -->
-    </section>
+        <div class="kontak-info">
+            <div class="info-item">
+                <img src="img/map-pin.svg" alt="Location Icon">
+                <p>Jl. Contoh No. 123, Kota Kamu, Negara Anda</p>
+            </div>
+            <div class="info-item">
+                <img src="img/mail.svg" alt="Email Icon">
+                <p>info@example.com</p>
+            </div>
+            <div class="info-item">
+                <img src="img/brand-whatsapp.svg" alt="Phone Icon">
+                <p>+1234567890</p>
+            </div>
+        </div>
+        <form action="#" method="post" class="contact-form">
+            <input type="text" name="nama" placeholder="Nama Anda" required>
+            <input type="email" name="email" placeholder="Email Anda" required>
+            <textarea name="pesan" placeholder="Pesan Anda" required></textarea>
+            <button type="submit">Kirim Pesan</button>
+        </form>
+    </section>    
 
+    <footer>
+        <div class="social-media">
+            <img src="img/brand-facebook-filled.svg" alt="">
+            <img src="img/brand-instagram.svg" alt="">
+            <img src="img/brand-x.svg" alt="">
+            <img src="img/brand-youtube-filled.svg" alt="">
+        </div>
+        <div class="iyas">
+        <img src="img/ntahwhite.png" alt="">
+    </div> 
+    </footer>
+    
     <script src="script.js"></script>
 </body>
 </html>
