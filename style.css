@@ -122,9 +122,14 @@ span{
 
 .candidate-image {
     width: 300px;
-    /* height: auto; */
+    height: auto;
     border-radius: 50%;
-    /* margin-right: 20px; */
+    margin-right: 20px;
+    transition: transform 0.3s ease; /* Menambahkan efek transisi untuk zoom */
+}
+
+.candidate-image:hover {
+    transform: scale(1.1); /* Memperbesar gambar saat pointer mouse berada di atasnya */
 }
 
 .candidate-details {
@@ -232,6 +237,52 @@ span{
     margin-right: 10px; /* Berikan jarak antar gambar */
 }
 
+.testimoni {
+    padding: 40px;
+    background-color: #b6e4f2;
+    text-align: center;
+}
+
+.testimoni h2 {
+    margin-bottom: 20px;
+}
+
+.testimoni-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Biarkan testimoni-wrap berjajar sesuai lebar layar */
+}
+
+.testimoni-box {
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    text-align: left;
+}
+
+.testimoni-box img {
+    width: 100%; /* Mengisi lebar kotak testimoni */
+    height: 200px; /* Mengatur tinggi kotak testimoni */
+    object-fit: cover; /* Menjaga aspek rasio gambar */
+    border-radius: 8px 8px 0 0; /* Atur border-radius untuk sudut atas gambar */
+    transition: transform 0.3s ease; /* Menambahkan efek transisi untuk zoom */
+}
+
+.testimoni-box:hover img {
+    transform: scale(1.1); /* Memperbesar gambar saat pointer mouse berada di atasnya */
+}
+
+.testimoni-box h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.testimoni-box p {
+    font-style: italic;
+}
 
 footer {
     background-color: #333;
